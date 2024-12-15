@@ -1,0 +1,64 @@
+#experience {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 5rem;
+    max-width: 1250px; 
+  }
+  
+  #experience img {
+    max-width: 250px;
+    border: 4px solid #ffffff;
+  }
+  
+  #experience h1 {
+    color: #000000;
+    font-size: 2rem;
+  }
+  
+  #experience h5 {
+    margin-bottom: 1rem;
+    color: #000000;
+  }
+  
+  #experience p {
+    font-size: 1rem;
+    color: #000000;
+  }
+
+  .collapse {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .collapse.show {
+    max-height: 1000px;
+    transition: max-height 0.3s ease-in;
+  }
+
+  .experience-button{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .experience-button:hover{
+    background-color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+
+  .experience-button:active{
+    background-color: #ffffff;
+    transform: translateY(0);
+  }
+  

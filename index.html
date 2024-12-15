@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conor Collins Portfolio</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/about.css">
+  <link rel="stylesheet" href="CSS/education.css">
+  <link rel="stylesheet" href="CSS/experience.css">
+  <link rel="stylesheet" href="CSS/skills.css">
+  <link rel="stylesheet" href="CSS/hobbies-achievements.css">
+  <link rel="stylesheet" href="CSS/work-interests.css">
+  <link rel="stylesheet" href="CSS/contact.css">
+  <link rel="stylesheet" href="CSS/project.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <style>
+    body{
+      background-color: rgb(71, 143, 138);
+    }
+  </style>
+  
+  <!-- Nav Bar -->
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work-interests">Fields of Interest</a></li>
+      <li><a href="#hobbies-achievements">Hobbies & Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Sections -->
+  <section id="about" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="assets/me.jpg" alt="Conor Collins" class="img-fluid rounded-circle">
+      </div>
+      <div class="col-md-8">
+        <h1>Conor Collins</h1>
+        <h5>Software Developer</h5>
+        <p>
+          Dedicated, results-driven student with a passion for solving complex problems and creating innovative solutions.<br><br>
+          I enjoy learning new technologies and am seeking opportunities in Software development and Software testing.<br><br>
+          I'm experienced in collaborative team environments. Proficient in multiple programming languages including Python, Java, and JavaScript, with a strong foundation in data structures and algorithms
+        </p>
+        <a href="assets/ConorCollins.docx" download="ConorCollins_CV" class="custom-cv-button">
+          Download CV
+      </a>
+      <a href="https://www.linkedin.com/in/conorcollins7/" class="custom-cv-button">
+        My LinkedIn
+    </a>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="education" class="container py-5">
+    <div class="college-info">
+      <img src="assets/TUD.png" alt="TUD" class="college-badge">
+      <h2>Technology University Dublin</h2>
+      <p><strong>Years Attended:</strong> 2021 - Present</p>
+    </div>
+  
+    <div class="module-grades">
+  
+      <button id="toggleGradesButton" class="dropdown-grades-button">View Grades</button>
+  
+      <div id="grades" style="display: none;">
+        <div class="table-row">
+          <div class="year-table">
+            <h4>First Year Modules</h4>
+            <table>
+              <thead>
+                <tr>
+                  <th>Module</th>
+                  <th>Grade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Visual Design & User Experience</td><td>B</td></tr>
+                <tr><td>Computer Architecture</td><td>B</td></tr>
+                <tr><td>Business & Information Systems</td><td>B+</td></tr>
+                <tr><td>Systems Analysis</td><td>C+</td></tr>
+                <tr><td>Software Development 1</td><td>B+</td></tr>
+                <tr><td>Critical Skills Development</td><td>B</td></tr>
+                <tr><td>Operating Systems Fundamentals</td><td>B</td></tr>
+                <tr><td>Discrete Mathematics 1</td><td>B</td></tr>
+                <tr><td>Software Development 2</td><td>B</td></tr>
+                <tr><td>Social Media Communications</td><td>B</td></tr>
+                <tr><td>Database Fundamentals</td><td>B</td></tr>
+              </tbody>
+            </table>
+          </div>
+  
+          <div class="year-table">
+            <h4>Second Year Modules</h4>
+            <table>
+              <thead>
+                <tr>
+                  <th>Module</th>
+                  <th>Grade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Software Development 3</td><td>B</td></tr>
+                <tr><td>Software Quality Assurance & Testing</td><td>B</td></tr>
+                <tr><td>Advanced Database Technologies</td><td>C+</td></tr>
+                <tr><td>Network Fundamentals</td><td>B</td></tr>
+                <tr><td>Client-Side Web Development</td><td>B+</td></tr>
+                <tr><td>Discrete Mathematics 2</td><td>A</td></tr>
+                <tr><td>Software Development 4</td><td>B</td></tr>
+                <tr><td>Project</td><td>A</td></tr>
+                <tr><td>Data Administration & Analysis</td><td>B</td></tr>
+                <tr><td>Routing & Switching Essentials</td><td>A</td></tr>
+                <tr><td>Information Security</td><td>B+</td></tr>
+                <tr><td>Management Science</td><td>B+</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+        <div class="table-row">
+          <div class="year-table">
+            <h4>Third Year Modules</h4>
+            <table>
+              <thead>
+                <tr>
+                  <th>Module</th>
+                  <th>Grade</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>Data Structures & Algorithms</td><td>B</td></tr>
+                <tr><td>Big Data Technologies</td><td>B-</td></tr>
+                <tr><td>Cloud Service & Distributed Computing</td><td>C</td></tr>
+                <tr><td>Innovation & Entrepreneurship</td><td>B</td></tr>
+                <tr><td>Operating Systems</td><td>C</td></tr>
+                <tr><td>Server-side Web Development</td><td>C+</td></tr>
+                <tr><td>Work Placement: GuideWire Software</td><td>Complete</td></tr>
+
+              </tbody>
+            </table>
+          </div>
+  
+          <div class="year-table">
+            <h4>Fourth Year Modules</h4>
+            <table>
+              <thead>
+                <tr>
+                  <th>Module</th>
+                  <th>Grade</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="projects" class="container py-5">
+    <h1>My Projects</h1>
+    <p>Here are some of the projects I've worked on.</p>
+  
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>2nd Year Project <br> Movies @ TUD</h3>
+        <h5>Django</h5>
+        <p>Movie booking website built with Django</p>
+        <button class="expand-btn">View Details</button>
+  
+        <div class="project-details">
+          <p>Movie booking website built with Django that allows users to browse the latest movie releases, view trailers, select desired seats, and book tickets using Stripe for secure payments. 
+            <br>
+            Users can register an account, log in/out, and choose a preferred showtime. The site also offers food and beverage selections and enables users to leave star ratings and reviews for movies.</p>
+        </div>
+        <br>
+      </div>
+  
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <h5>Blazor WASM</h5>
+        <p>A weather forecasting app built with ASP.NET Core Blazor WebAssembly</p>
+        <button class="expand-btn">View Details</button>
+        <div class="project-details">
+          <p>A weather forecasting app built with ASP.NET Core Blazor WebAssembly. 
+          <br>
+          It fetches real-time data from WeatherAPI. It features search functionality, location-based weather info, and dynamic updates. 
+          <br><br>
+          The project showcases Blazor for interactive web apps and is deployed on Microsoft Azure.</p>
+          <br>
+          <a href="https://lemon-flower-0be123e10-preview.centralus.4.azurestaticapps.net/">View Full Project</a>
+        </div>
+      </div>
+  
+      <div class="project-card">
+        <h3>Guidewire Project <br>Innovation Marketplace</h3>
+        <h5>MERN Stack</h5>
+        <p>A full-stack application built using MERN stack</p>
+        <button class="expand-btn">View Details</button>
+  
+        <div class="project-details">
+          <p>A full-stack application built using the MERN stack (MongoDB, Express, React, Node.js) for browsing internal tools at Guidewire
+            <br>
+            Features include CRUD operations, user authentication with JWT, search and filter functionality, and the ability to submit and view tools.
+            <br>
+            The app was developed with a focus on integrating a RESTful API, handling user sessions, and utilizing Git for version control.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>IBM Industry Project <br>Knowledge base Auto-Updater</h3>
+        <h5>NLP based</h5>
+        <p>Automates the creation and management of knowledge base articles for support tickets.</p>
+        <button class="expand-btn">View Details</button>
+  
+        <div class="project-details">
+          <p>Ongoing Project that automates the creation and management of knowledge base articles for support tickets. It uses Natural Language Processing (NLP) to analyze support tickets and generate draft articles for review.
+            <br><br>
+            It enables dynamic content updates by correlating new ticket resolutions with relevant articles, ensuring the knowledge base remains up-to-date.
+            <br>
+            The system also supports multi-language articles, version control for article history, and search query optimization to display the most relevant articles.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="experience" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="assets/GW.jpg" alt="GuideWire" class="img-fluid rounded-circle">
+      </div>
+      <div class="col-md-8">
+        <h1>Guidewire Software</h1>
+        <h5>Consultant Developer Intern</h5>
+        <h6>Feb 2024 - Aug 2024</h6>
+        <br>
+        <p id="experience-text" class="collapse">
+          During my internship at Guidewire, I had the opportunity to work in a collaborative Agile environment where I contributed to various phases of the software development lifecycle. I was involved in the development of a full stack MERN application, designed to integrate and streamline Guidewire's diverse tools for improved access and functionality. This project required me to apply my knowledge of JavaScript, MongoDB, Express, React, and Node.js, allowing me to deepen my understanding of full stack development.
+          <br><br>
+          In addition to this project, I was part of a dedicated pod focused on building a testing portfolio dashboard. This initiative involved using Java to develop backend services and React for frontend design, providing me with hands-on experience in both frontend and backend development. I also had the opportunity to work with TestCafe for automated testing and TeamCity for continuous integration. These tools enabled me to enhance my skills in test automation, continuous integration, and overall software quality assurance.
+          <br><br>
+          Throughout the internship, I was able to strengthen my ability to work effectively within an Agile framework, participating in daily stand-ups, sprint planning, and retrospective meetings. This experience significantly improved my technical skills, communication abilities, and my understanding of best practices for both software development and automated testing.
+        </p>
+        <button id="toggle-button" class="experience-button">Read More</button>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="skills" class="container py-5">
+    <h1 class="text-center mb-4">Technical Skills</h1>
+    <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#skillsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#skillsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#skillsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="skill-category text-center p-4">
+            <h3>Software Design and Development</h3>
+            <ul class="list-unstyled">
+              <li>Confident developer in Java and Python.</li>
+              <li>Capable of front-end and back-end development of websites using Django, JavaScript, CSS, and HTML5.</li>
+              <li>Developed a full stack application using the MERN stack (Innovation Marketplace Tool).</li>
+              <li>Familiar with the Agile software development methodology </li>
+              <li>Experienced in version control systems such as Git and platforms like GitHub and Azure DevOps.</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <div class="skill-category text-center p-4">
+            <h3>Databases and Data Analysis</h3>
+            <ul class="list-unstyled">
+              <li>Can write SQL queries for data retrieval, modification, and manipulation to an intermediate level using Oracle 11G.</li>
+              <li>Can analyze data using tools like Excel and Jupyter Notebook.</li>
+              <li>Familiar with using Python for data analysis, including libraries like pandas and NumPy.</li>
+              <li>Have experience creating interactive dashboards and visualizations using Tableau to represent complex datasets.</li>
+              <li>Proficient in parsing and processing raw data with Python</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <div class="skill-category text-center p-4">
+            <h3>Testing and Debugging</h3>
+            <ul class="list-unstyled">
+              <li>Familiar with testing and debugging using UnitTest and Selenium. Practices test-driven development.</li>
+              <li>Proficient in creating pull requests and resolving merge conflicts to ensure smooth code integration.</li>
+              <li>Experienced with Test Café for end-to-end testing of web applications.</li>
+              <li>Proficient in using Git for version control, including branching, rebasing, and maintaining collaborative workflows.</li>
+              <li>Familiar with Continuous Integration/Continuous Deployment (CI/CD) pipelines, using tools like Azure DevOps for automated testing and deployment.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#skillsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#skillsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  
+  <section id="work-interests" class="container py-5">
+    <h1 class="text-center mb-4">Work Fields of Interest</h1>
+    <div class="accordion" id="interestsAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Web Application Development and User Experience
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#interestsAccordion">
+          <div class="accordion-body">
+            I have experience in building full-stack applications with:
+            <br>
+            <strong>MERN stack (MongoDB, Express, React, Node.js), Blazor WebAssembly, and Django.</strong> 
+            <br><br>
+            My projects include designing responsive user interfaces with React, creating scalable APIs with Node.js and Django REST Framework, and building interactive web apps with Blazor for a desktop-like browser experience.
+            <br><br>
+            <strong>A strong interest of mine is User-Centered Design:</strong>
+            <br>
+            I’m passionate about creating intuitive and accessible applications that prioritize user needs. I practise testing and refining designs to ensure seamless interactions, and I aspire to work in a role where I can blend development skills with UX expertise to deliver impactful software solutions.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Mobile App Development
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#interestsAccordion">
+          <div class="accordion-body">
+            Mobile app development is an area that greatly interests me, especially the ability to create seamless, accessible applications for iOS and Android. 
+            <br><br>
+            <strong>My experience with React and its ecosystem gives me a solid foundation for exploring tools like React Native to develop cross-platform mobile apps.</strong>
+            <br><br>
+            <strong>I’m drawn to the creativity and innovation in this field:</strong>
+            <br>
+            From designing intuitive user interfaces to leveraging mobile-first principles, I believe this is a space where I could combine technical skills with a passion for delivering impactful user experiences. It’s a field I’m excited to explore and grow into.
+          </div>
+        </div>
+      </div>      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Game Development
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#interestsAccordion">
+          <div class="accordion-body">
+            Gaming has been a lifelong passion of mine, and I’ve always admired the creativity and innovation that goes into crafting immersive gaming experiences. 
+            <br>
+            The gaming community has had a huge impact on me, and I’d love to contribute to it someday. 
+            <br><br>
+            I have some knowledge of <strong>C# and C++</strong>, which are commonly used in the industry.
+            <br> 
+            I’m eager to explore platforms like <strong>Unity and Unreal Engine</strong> to learn how they power modern game design.
+            <br><br>
+            <strong>Game development excites me because:</strong>
+            <br>
+            It blends technical problem-solving with storytelling and design, creating interactive worlds that captivate players. It’s a field I would truly enjoy learning more about and pursuing in the future.
+          </div>
+        </div>
+      </div>      
+    </div>
+  </section>
+
+  <section id="hobbies-achievements" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-4 text-center">
+        <img src="assets/hobbies-achievements.jpg" alt="hobbies-achievements" class="img-fluid rounded-circle">
+      </div>
+      <div class="col-md-8">
+        <h1>Hobbies & Achievements</h1>
+        <br>
+        <p id="hobbies-achievements-text" class="collapse">
+          <strong>2024 - Volunteering</strong>
+          <br>
+          Volunteered in 3 separate events including a tree planting event, a beach clean-up event, and a RSPCA event.
+          <br><br>
+          <strong>2024 - Hackathon</strong>
+          <br>
+          Participated in Guidewires Hackathon with the theme of LLMs, where my team placed 1st and won a drone. 
+          <br><br>
+          <strong>2023 - Music Production</strong>
+          <br>
+          Produced a song with over 450k views on Soundcloud
+          <br><br>
+          <strong>2020 - Powerlifting</strong>
+          <br>
+          2 world records in the AIPO Powerlifting Federation
+          <br><br>
+          <strong>2019 - Erasmus, Finland</strong>
+          <br>
+          Travelled to Finland through the Erasmus programme to spend a week with a Finnish family. 
+          <br><br>
+        </p>
+        <button id="toggle-button-hobbies-achievements" class="hobbies-achievements-button">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <br><br><br>
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <p>Provide your contact details and message here.</p>
+  
+    <form action="https://formspree.io/f/myzyqyjj" method="POST">
+      <label>
+        Your email:
+        <input type="email" name="email" required>
+      </label>
+  
+      <label>
+        Your message:
+        <textarea name="message" required></textarea>
+      </label>
+  
+      <button type="submit" class="contact-button">Send</button>
+    </form>
+  
+    <div id="success-message" style="display:none;">Thank you for your message! I will get back to you soon.</div>
+    <div id="error-message" style="display:none;">Sorry, there was an error sending your message. Please try again later.</div>
+  </section>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

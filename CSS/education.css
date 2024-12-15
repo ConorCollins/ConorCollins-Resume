@@ -1,0 +1,125 @@
+#education {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 5rem;
+    max-width: 1500px; 
+  }
+
+.college-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin: 20px auto; 
+  }
+
+  .college-badge {
+    width: 100px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto 20px; 
+  }
+  
+
+.module-grades {
+    margin-top: 20px;
+  }
+  
+  h3, h4 {
+    color: #000000;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  thead th {
+    text-align: left;
+    padding: 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  tbody td {
+    padding: 10px;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #eee;
+    color: #444;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .year-table {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .year-table h4 {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .table-row {
+      flex-direction: column;
+    }
+  
+    .year-table {
+      margin: 10px 0;
+    }
+  }
+
+.dropdown-grades-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 20px auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-grades-button:hover {
+    background-color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+
+  .dropdown-grades-button:active{
+    background-color: #ffffff;
+    transform: translateY(0);
+  }
+  
+  
+  

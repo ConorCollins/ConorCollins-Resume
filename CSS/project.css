@@ -1,0 +1,108 @@
+#projects {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 5rem;
+    max-width: 1250px;
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    align-items: center;
+    width: 380px;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .expand-btn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expand-btn:hover {
+    background-color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+
+  .expand-btn:active{
+    background-color: #ffffff;
+    transform: translateY(0);
+  }
+  
+  .project-details {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .project-details.show {
+    display: block;
+  }
+  
+  .project-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .project-details a {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 30px;
+    margin: 20px auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+  }
+  
+  .project-details a:hover {
+    background-color: #000000;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+
+  .project-details a:active{
+    background-color: #ffffff;
+    transform: translateY(0);
+  }
+  
